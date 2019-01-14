@@ -1,5 +1,7 @@
 package lesson2;
 
+import java.util.Date;
+
 /**
  * Created by Valik on 10.12.2018.
  */
@@ -9,6 +11,8 @@ public class Demo {
             //create class with fields
             //create object with some values
             //using it
+
+        Order order = new Order(1001, "tool2212", 140, new Date(), new Date());
 
 
         //db

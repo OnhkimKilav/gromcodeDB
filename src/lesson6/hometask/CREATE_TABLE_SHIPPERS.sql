@@ -1,0 +1,6 @@
+CREATE TABLE SHIPPERS(
+    ShipperID NUMBER,
+    CONSTRAINT ShipperID_PK PRIMARY KEY (ShipperID),
+    CompanyName NVARCHAR2(50),
+    Phone NUMBER
+);

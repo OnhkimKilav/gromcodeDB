@@ -1,0 +1,20 @@
+CREATE TABLE EMPLOYEES(
+    EmployeeID NUMBER,
+    CONSTRAINT EmployeeID_PK PRIMARY KEY (EmployeeID),
+    LastName NVARCHAR2(50),
+    FirstName NVARCHAR2(50),
+    Title NVARCHAR2(50),
+    TitleOfCourtesy NVARCHAR2(50),
+    BirthDate TIMESTAMP,
+    HireDate TIMESTAMP,
+    Address NVARCHAR2(50),
+    City NVARCHAR2(50),
+    Region NVARCHAR2(50),
+    PostalCode NUMBER,
+    Country NVARCHAR2(50),
+    HomePhone NUMBER,
+    Extension NUMBER,
+    Photo NVARCHAR2(50),
+    Notes NVARCHAR2(50),
+    ReportsTo NVARCHAR2(50)
+);
