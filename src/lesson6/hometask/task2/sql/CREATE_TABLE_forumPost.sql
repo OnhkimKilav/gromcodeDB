@@ -6,7 +6,7 @@ CREATE TABLE forumPost(
     idUser NUMBER,
     CONSTRAINT idUser_FK FOREIGN KEY (idUser) REFERENCES users(id),
     parentPost NUMBER,
-    CONSTRAINT parentPost_FK FOREIGN KEY (parentPost) REFERENCES forumPollsOptions(id),
+    CONSTRAINT parentPost_FK FOREIGN KEY (parentPost) REFERENCES forumPost(id),
     title VARCHAR(90),
     content TEXT,
     isPoll BOOLEAN,
